@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #222;
+    padding: 16px;
+  }
+  
+  .navList {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navItem a:hover,
+  .navItem a.active {
+    color: #00bfff;
+  }
+  

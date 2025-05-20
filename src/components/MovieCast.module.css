@@ -1,0 +1,25 @@
+.castList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .actorCard {
+    width: 120px;
+    text-align: center;
+  }
+  
+  .actorPhoto {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  
+  .actorName {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  

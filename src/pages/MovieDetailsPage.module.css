@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .poster {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .info {
+    max-width: 600px;
+  }
+  
+  .title {
+    margin-top: 0;
+    font-size: 32px;
+    color: #222;
+  }
+  
+  .overview {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
